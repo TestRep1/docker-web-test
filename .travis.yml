@@ -10,6 +10,7 @@ scripts:
 
 deploy:
   provider: elasticbeanstalk
+  edge: true
   region: "us-east-1"
   app: "docker-web-test"
   env: "Dockerwebtest-env"
